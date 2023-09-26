@@ -523,7 +523,7 @@ function heystup() {
                 h.style.fontSize = "87px";
                 h.style.color = "#FF3030";
                 h.style.background = "#FFFFFF";
-                0 <= (e.src + "").indexOf("android") ? h.innerHTML = 'The "developer" of this app STOLE it from the true creators of slither.io. <a href="https://play.google.com/store/apps/details?id=air.com.hypah.io.slither">Tap here to download the real game!</a>' : h.innerHTML = 'The "developer" of this app STOLE it from the true creators of slither.io. <a href="https://itunes.apple.com/us/app/slither.io/id1091944550?ls=1&mt=8">Tap here to download the real game!</a>';
+                0 <= (e.src + "").indexOf("android") ? h.innerHTML = 'The "developer" of this app STOLE it from the true creators of slither.io. <a href="https://play.google.com/store/appdetails?id=air.com.hypah.io.slither">Tap here to download the real game!</a>' : h.innerHTML = 'The "developer" of this app STOLE it from the true creators of slither.io. <a href="https://itunes.apple.com/uapp/slither.io/id1091944550?ls=1&mt=8">Tap here to download the real game!</a>';
                 document.body.appendChild(h)
             }
         } catch (w) {}
@@ -537,7 +537,7 @@ function heystup() {
     h.style.fontSize = "87px",
     h.style.color = "#FF3030",
     h.style.background = "#FFFFFF",
-    h.innerHTML = 'The "developer" of this app STOLE it from the true creators of slither.io. <a href="https://itunes.apple.com/us/app/slither.io/id1091944550?ls=1&mt=8">Tap here to download the real game!</a>',
+    h.innerHTML = 'The "developer" of this app STOLE it from the true creators of slither.io. <a href="https://itunes.apple.com/uapp/slither.io/id1091944550?ls=1&mt=8">Tap here to download the real game!</a>',
     document.body.appendChild(h))
 }
 setInterval(heystup, 8E3);
@@ -547,7 +547,7 @@ for (i = 0; i < accessories.length; i++)
     a_imgs.push(o),
     o.loaded = !1,
     o.img = null,
-    o.u = "s/a_" + accessories[i] + ".png",
+    o.u = "a_" + accessories[i] + ".png",
     0 == i ? (o.sc = .205,
     o.px = 66,
     o.py = 87) : 1 == i ? (o.sc = .2,
@@ -1089,7 +1089,7 @@ ii.onload = function() {
     } catch (c) {}
 }
 ;
-ii.src = "s/bg54.jpg";
+ii.src = "bg54.jpg";
 function rdgbg() {
     if (ggbg) {
         gbgmc || (gbgmc = document.createElement("canvas"));
@@ -1109,7 +1109,7 @@ gbgi.onload = function() {
     rdgbg()
 }
 ;
-gbgi.src = "s/gbg.jpg";
+gbgi.src = "gbg.jpg";
 function newDeadpool() {
     return {
         os: [],
@@ -2039,7 +2039,7 @@ kwki.onload = function() {
     c.drawImage(b, 0, 0)
 }
 ;
-kwki.src = "s/kwk6.png";
+kwki.src = "kwk6.png";
 var jmou = document.createElement("canvas");
 jmou.width = 79;
 jmou.height = 130;
@@ -2048,7 +2048,7 @@ jmoi.onload = function() {
     jmou.getContext("2d").drawImage(jmoi, 0, 0)
 }
 ;
-jmoi.src = "s/jmou3.png";
+jmoi.src = "jmou3.png";
 var pwdbulb = document.createElement("canvas");
 pwdbulb.width = 190;
 pwdbulb.height = 188;
@@ -2065,7 +2065,7 @@ pwdi.onload = function() {
     c.drawImage(b, 0, 0)
 }
 ;
-pwdi.src = "s/pewd.png";
+pwdi.src = "pewd.png";
 var sest = document.createElement("canvas");
 sest.width = 105;
 sest.height = 88;
@@ -2074,7 +2074,7 @@ sesti.onload = function() {
     sest.getContext("2d").drawImage(sesti, 0, 0)
 }
 ;
-sesti.src = "s/sest5.png";
+sesti.src = "sest5.png";
 var playbulb = document.createElement("canvas");
 playbulb.width = 142;
 playbulb.height = 149;
@@ -2091,7 +2091,7 @@ plyi.onload = function() {
     c.drawImage(b, 0, 0)
 }
 ;
-plyi.src = "s/play.png";
+plyi.src = "play.png";
 var bonkbulb = document.createElement("canvas");
 bonkbulb.width = 173;
 bonkbulb.height = 178;
@@ -2108,7 +2108,7 @@ bnki.onload = function() {
     c.drawImage(b, 0, 0)
 }
 ;
-bnki.src = "s/bonkers2.png";
+bnki.src = "bonkers2.png";
 var leafbulb = document.createElement("canvas");
 leafbulb.width = 143;
 leafbulb.height = 161;
@@ -2125,7 +2125,7 @@ leafi.onload = function() {
     c.drawImage(b, 0, 0)
 }
 ;
-leafi.src = "s/leaf.png";
+leafi.src = "leaf.png";
 var swissbulb = document.createElement("canvas");
 swissbulb.width = 140;
 swissbulb.height = 140;
@@ -2142,7 +2142,7 @@ swissi.onload = function() {
     c.drawImage(b, 0, 0)
 }
 ;
-swissi.src = "s/swiss.png";
+swissi.src = "swiss.png";
 var moldovabulb = document.createElement("canvas");
 moldovabulb.width = 162;
 moldovabulb.height = 137;
@@ -2159,7 +2159,7 @@ moldovai.onload = function() {
     c.drawImage(b, 0, 0)
 }
 ;
-moldovai.src = "s/moldova.png";
+moldovai.src = "moldova.png";
 var vietnambulb = document.createElement("canvas");
 vietnambulb.width = 137;
 vietnambulb.height = 142;
@@ -2176,7 +2176,7 @@ vietnami.onload = function() {
     c.drawImage(b, 0, 0)
 }
 ;
-vietnami.src = "s/vietnam.png";
+vietnami.src = "vietnam.png";
 var argentinabulb = document.createElement("canvas");
 argentinabulb.width = 152;
 argentinabulb.height = 152;
@@ -2193,7 +2193,7 @@ argentinai.onload = function() {
     c.drawImage(b, 0, 0)
 }
 ;
-argentinai.src = "s/argentina.png";
+argentinai.src = "argentina.png";
 var movbulb = document.createElement("canvas");
 movbulb.width = 142;
 movbulb.height = 163;
@@ -2210,7 +2210,7 @@ movi.onload = function() {
     c.drawImage(b, 0, 0)
 }
 ;
-movi.src = "s/mov2.png";
+movi.src = "mov2.png";
 var colc;
 testing && (colc = document.createElement("canvas"),
 colc.width = 256,
@@ -3082,8 +3082,8 @@ var oef = function() {
             c.push("sectors: " + sectors.length);
             c.push();
             c.push("foods: " + foods_c);
-            c.push("bytes/sec: " + rdps);
-            c.push("bytes/sec avg: " + Math.round(trdps / tcsecs));
+            c.push("bytesec: " + rdps);
+            c.push("bytesec avg: " + Math.round(trdps / tcsecs));
             c.push("");
             for (f = h = 0; f < rdpspc.length; f++)
                 0 <= rdpspc[f] && (h += rdpspc[f]);
@@ -5544,16 +5544,16 @@ var twth = document.getElementById("twth")
   , phqi = document.createElement("img")
   , grqi = document.getElementById("grqi");
 try {
-    "0" == localStorage.qual ? (grqi.src = "s/lowquality.png",
-    want_quality = 0) : (phqi.src = "s/lowquality.png",
+    "0" == localStorage.qual ? (grqi.src = "lowquality.png",
+    want_quality = 0) : (phqi.src = "lowquality.png",
     want_quality = 1)
 } catch (b) {}
 grq.onclick = function() {
     try {
         "0" == localStorage.qual ? (localStorage.qual = "1",
-        grqi.src = "s/highquality.png",
+        grqi.src = "highquality.png",
         want_quality = 1) : (localStorage.qual = "0",
-        grqi.src = "s/lowquality.png",
+        grqi.src = "lowquality.png",
         want_quality = 0)
     } catch (b) {}
     return !1
@@ -5891,8 +5891,8 @@ etco.onclick = function() {
         if (!ever_showed_entercode) {
             ever_showed_entercode = !0;
             for (var b = etcobs.length - 1; 0 <= b; b--)
-                etcobs[b].ii.src = 10 == b ? "s/codedel.png" : "s/code" + b + ".png";
-            etco_sp_ii.src = "s/spinner.png";
+                etcobs[b].ii.src = 10 == b ? "codedel.png" : "code" + b + ".png";
+            etco_sp_ii.src = "spinner.png";
             for (b = 0; 11 >= b; b++) {
                 var c = document.createElement("img");
                 c.width = 54;
@@ -5910,7 +5910,7 @@ etco.onclick = function() {
                 h.ii = c;
                 h.loaded = !1;
                 etcdis.push(h);
-                c.src = "s/cd" + e + ".png"
+                c.src = "cd" + e + ".png"
             }
         }
         etcod.style.display = "inline";
@@ -6049,7 +6049,7 @@ scos.onclick = function() {
                         }
                 }
                 ;
-                w.src = 32 == h ? "s/a_none.png" : a_imgs[h].u;
+                w.src = 32 == h ? "a_none.png" : a_imgs[h].u;
                 w.style.opacity = 0;
                 w.style.position = "absolute";
                 w.style.left = "0px";
@@ -6672,7 +6672,7 @@ window.fifthia = function() {
     window.ut_d = b;
     document.body.appendChild(b);
     var c = document.createElement("div");
-    c.style.background = 'url("s/fifthsun3.jpg")';
+    c.style.background = 'url("fifthsun3.jpg")';
     c.style.width = "1100px";
     c.style.height = "800px";
     c.style.marginTop = "30px";
@@ -6700,7 +6700,7 @@ window.fifthia = function() {
     var e = document.createElement("a");
     e.className = "btnt";
     e.draggable = !1;
-    e.href = "https://www.fifthsun.com/brands/video-games/slither-io";
+    e.href = "https://www.fifthsun.com/brandvideo-gameslither-io";
     e.target = "_blank";
     e.appendChild(b);
     c.appendChild(e);
@@ -6773,7 +6773,7 @@ window.partycityia = function() {
     window.ut_d = b;
     document.body.appendChild(b);
     var c = document.createElement("div");
-    c.style.background = 'url("s/partycity2.jpg")';
+    c.style.background = 'url("partycity2.jpg")';
     c.style.width = "1100px";
     c.style.height = "800px";
     c.style.position = "absolute";
@@ -6885,10 +6885,10 @@ if (is_ios || is_android)
     mbi.style.left = "0px",
     mbi.style.bottom = "0px",
     mbi.style.zIndex = 70,
-    mbi.src = "s/n2.jpg",
+    mbi.src = "n2.jpg",
     mba.appendChild(mbi),
     document.body.appendChild(mba),
-    is_ios ? mba.href = "https://itunes.apple.com/us/app/slither.io/id1091944550?ls=1&mt=8" : is_android && (mba.href = is_amazon ? "http://www.amazon.com/Lowtech-Enterprises-slither-io/dp/B01E312TYQ/" : "https://play.google.com/store/apps/details?id=air.com.hypah.io.slither");
+    is_ios ? mba.href = "https://itunes.apple.com/uapp/slither.io/id1091944550?ls=1&mt=8" : is_android && (mba.href = is_amazon ? "http://www.amazon.com/Lowtech-Enterprises-slither-io/dp/B01E312TYQ/" : "https://play.google.com/store/appdetails?id=air.com.hypah.io.slither");
 resize();
 recalculateActivatedCosmetics();
 o = {
