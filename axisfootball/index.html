@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        #container {
+            background-color: #000;
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="container"></div>
+    <script>
+        window.RufflePlayer = window.RufflePlayer || {};
+        window.RufflePlayer.config = {
+            "allowScriptAccess": false,
+            "autoplay": "auto",
+            "unmuteOverlay": "visible",
+            "backgroundColor": "#000000",
+            "wmode": "window",
+            "letterbox": "fullscreen",
+            "warnOnUnsupportedContent": false,
+            "contextMenu": "on",
+            "showSwfDownload": false,
+            "upgradeToHttps": window.location.protocol === "https:",
+            "maxExecutionDuration": 15,
+            "logLevel": "error",
+            "base": null,
+            "menu": true,
+            "salign": "",
+            "forceAlign": false,
+            "scale": "showAll",
+            "forceScale": false,
+            "frameRate": 30,
+            "quality": "high",
+            "splashScreen": true,
+            "preferredRenderer": null,
+            "openUrlMode": "deny",
+            "allowNetworking": "all",
+            "favorFlash": true,
+        };
+        window.addEventListener("DOMContentLoaded", () => {
+            let ruffle = window.RufflePlayer.newest();
+            let player = ruffle.createPlayer();
+            let container = document.getElementById("container");
+	    player.style.width = "100%";
+	    player.style.height = "100%";
+            container.appendChild(player);
+            player.load("afl.swf");
+        });
+    </script>
+    <script src="ruffle.js"></script>
+</body>
+</html>
