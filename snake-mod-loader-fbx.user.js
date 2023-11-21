@@ -219,7 +219,7 @@ let externalConfig = {
 
     //Make a synchronous request for modInfo JSON file
     let req = new XMLHttpRequest();
-    req.open('GET', 'https://raw.githubusercontent.com/DarkSnakeGang/GoogleSnakeModLoader/main/build/mod-info.json', false);
+    req.open('GET', 'mod-info.json', false);
     req.onload = function() {
       if(this.status === 200) {
         try {
@@ -235,12 +235,12 @@ let externalConfig = {
           externalConfig.hasError = true;
         }
       } else {
-        console.error(`Loading external config from https://raw.githubusercontent.com/DarkSnakeGang/GoogleSnakeModLoader/main/build/mod-info.json returned non-200 status. Received: ${this.status}`);
+        console.error(`Loading external config from mod-info.json returned non-200 status. Received: ${this.status}`);
         externalConfig.hasError = true;
       }
     };
     req.onerror = function(event) {
-      console.error('Error when attempting to retrieve external config from https://raw.githubusercontent.com/DarkSnakeGang/GoogleSnakeModLoader/main/build/mod-info.json');
+      console.error('Error when attempting to retrieve external config from mod-info.json');
       console.log(event);
       externalConfig.hasError = true;
     };
