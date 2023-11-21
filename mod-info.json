@@ -14,7 +14,7 @@
     "moreMenu": {
       "displayName": "More Menu Mod",
       "hasUrl": true,
-      "url": "https://raw.githubusercontent.com/DarkSnakeGang/GoogleSnakeCustomMenuStuff/main/modloadercode.js",
+      "url": "moremenumod.js",
       "modDescription": {
         "descriptionName": "More Menu Mod",
         "authors": [
@@ -29,7 +29,7 @@
     "levelEditorMod": {
       "displayName": "Level Editor Mod",
       "hasUrl": true,
-      "url": "https://raw.githubusercontent.com/DarkSnakeGang/GoogleSnakeLevelEditor/main/modloadercode.js",
+      "url": "leveleditormod.js",
       "modDescription": {
         "descriptionName": "Level Editor Mod",
         "authors": [
@@ -44,7 +44,7 @@
     "mouseMode": {
       "displayName": "Mouse Mode",
       "hasUrl": true,
-      "url": "https://raw.githubusercontent.com/DarkSnakeGang/GoogleSnakeMouseMode/main/modloadercode.js",
+      "url": "mousemodemod.js",
       "modDescription": {
         "descriptionName": "Mouse Mode",
         "authors": [
@@ -59,7 +59,7 @@
     "PuddingMod": {
       "displayName": "Pudding Mod",
       "hasUrl": true,
-      "url": "https://raw.githubusercontent.com/DarkSnakeGang/GoogleSnakePudding/main/PuddingMod.js",
+      "url": "puddingmod.js",
       "modDescription": {
         "descriptionName": "Pudding Mod",
         "authors": [
@@ -74,7 +74,7 @@
     "MorePudding": {
       "displayName": "More Pudding Mod",
       "hasUrl": true,
-      "url": "https://raw.githubusercontent.com/DarkSnakeGang/GoogleSnakePudding/main/MorePudding.js",
+      "url": "morepuddingmod.js",
       "modDescription": {
         "descriptionName": "More Pudding Mod",
         "authors": [
@@ -93,7 +93,7 @@
     "VisibilityMod": {
       "displayName": "Visibility Mod",
       "hasUrl": true,
-      "url": "https://raw.githubusercontent.com/DarkSnakeGang/GoogleSnakeDeleteStuffMod/main/VisibilityMod.js",
+      "url": "visibilitymod.js",
       "modDescription": {
         "descriptionName": "Visibility Mod",
         "authors": [
